@@ -15,8 +15,8 @@ img {
   max-width: 1024px;
   margin-inline: auto;
   padding: 4rem;
-  /*   padding: clamp(1rem, -0.923rem + 7.692vw, 4rem);
- */
+  padding: clamp(1rem, -0.923rem + 7.692vw, 4rem);
+
 }
 
 h1,
@@ -26,24 +26,24 @@ h2 {
 
 h1 {
   font-size: 3.5rem;
-  /*   font-size: clamp(1.8rem, 0.71rem + 4.359vw, 3.5rem);
- */
+  font-size: clamp(1.8rem, 0.71rem + 4.359vw, 3.5rem);
+
 }
 
 h2 {
   font-size: 2.5rem;
-  /*   font-size: clamp(1.25rem, 0.449rem + 3.205vw, 2.5rem);
- */
+  font-size: clamp(1.25rem, 0.449rem + 3.205vw, 2.5rem);
+
 }
 
 p {
   line-height: 160%;
   font-size: 1.2rem;
-  /*   font-size: clamp(0.8rem, 0.544rem + 1.026vw, 1.2rem);
- */
+  font-size: clamp(0.8rem, 0.544rem + 1.026vw, 1.2rem);
+
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   .container {
     padding: 3rem;
   }
@@ -95,4 +95,4 @@ p {
   p {
     font-size: 0.8rem;
   }
-}
+} */
